@@ -1,0 +1,360 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	background: white;
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-container{
+	background: black;
+	height: 55px;
+	opacity: 0.7;
+	width: 100%;
+	color: white;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 20px;
+	  font-family: 'Montserrat', sans-serif;
+	  z-index: 2;
+	
+}
+
+.img-logo{
+	width: 160px;
+}
+
+
+
+
+.container-main{
+	width: 100%;
+	margin: 0 auto;
+	
+	background-image: url(images/PicsArt_main-03.jpg); 
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.left-main-block{
+	; 
+	margin-left: 20px;
+}
+.left-main-block img {
+	width: 200px;
+}
+
+.right-main-block{
+	margin-left: 10px;
+}
+
+.job{
+
+	color: white;
+	font-size: 50px;
+}
+
+.driver{
+	color: white;
+	font-size: 26px;
+	display: flex;
+	flex-direction: row;
+}
+
+.taxi{
+	color: black;
+	font-size: 26px;
+	background: orange;
+	border-radius: 5px;
+	height: 35px;
+}
+
+.container-info{
+	color: white;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+
+.registration{
+
+	margin-top: 35px;
+	color: white;
+	background: #F33636;
+	/*background: #F33636;*/
+	font-size: 24px;
+	padding: 10px 5px 10px 5px;
+text-align: center;
+	width: 260px;
+	border-radius: 5px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+}
+
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+
+.AboutOfCompany{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+		flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+	background: #fafafa;
+
+}
+
+.zagolovok-about{
+	font-size: 40px;
+	padding-top: 0%;
+	margin: 0px;
+}
+
+.TextOfCompany{
+	width: 80%;
+	font-size: 30px;
+	margin: 30px auto;
+	text-align: justify;
+
+}
+
+.HowJob{
+	height: 100vh;
+	/*background: #faccb1;*/
+	display: flex;
+	flex-direction: column;
+		justify-content: center;
+		background-image: url(images/PicsArt2_1.jpg);
+		background-size: cover;
+		color: white;
+
+}
+
+.zagolovok-how{
+	font-size: 36px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	
+	
+		
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+
+
+.flex-item{
+	width: 18%;
+	text-align: center;
+	font-size: 30px;
+	padding: 7%;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	display: flex;
+	flex-direction: column;
+	height: 230px;
+
+}
+
+
+
+.img-how{
+	width: 64px; margin: 0 auto; padding: 5%;
+}
+
+.img-logo-car{
+	width: 650px;
+	margin: 0 auto;
+}
+
+
+
+
+
+.forma {
+	height: 100vh;
+	display: flex;
+		/*background-image: url(images/background-form3.jpg);*/
+		background-image: url(images/hong-kong.jpg);
+		background-size: cover;
+		margin-top: 2%;
+		align-items: center;
+}
+
+.form-child{
+	width: 50%; /*!!!*/
+	background: white;
+	margin: 0 auto;
+	opacity: 0.98;
+	border-radius: 10px;
+	border: 2px solid #ccc;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+
+.form {
+	
+	width: 100%;
+	margin: 0 auto;
+}
+
+.FieldForEntering {
+	width: 80%;
+	margin: 10px auto;
+	border-radius: 5px;
+	height: 5vh;
+	text-align: left;
+	font-size: 25px;
+	border: solid #ccc;
+
+}
+
+.button{
+	
+	border-radius: 5px;
+	width: 50%;
+	height: 6vh;	
+	background: orange;
+	font-size: 20px;
+	margin-bottom: 25px;
+	cursor: pointer;	
+	border: 0px;	
+}
+
+.footer{
+	height: 15vh;
+	background: #333;
+	margin-top:2%; 
+	color: white;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	
+
+}
+
+.messenger-container{
+	width: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.messenger{
+	width: 45px;
+	border-radius: 30px;
+
+}
+
+.info{
+	width: 26%;
+}
+
+
+.application{
+	font-size: 25px; 
+	width: 80%;
+	margin: 25px auto;
+}
+
+
+.leaveArequest{
+	font-size: 20px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #ccc;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 20px;
+    opacity: 0.97;
+    text-align: center;
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,288 @@
+@media  screen and (max-width: 1100px) {
+	.flex-item{
+		font-size: 20px;
+	}
+	.img-how{
+		width: 54px;
+	}
+
+	.zagolovok-how{
+		font-size: 30px;
+	}
+
+	.footer{
+		font-size: 15px;
+	}
+	.messenger{
+		width: 30px;
+	}
+}
+
+
+
+@media  screen and (max-width: 900px) 
+{
+.FieldForEntering{
+	font-size: 15px;
+}
+.application{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.leaveArequest{
+	font-size: 15px;
+}
+
+.zagolovok-about{
+	font-size: 30px;
+}
+
+.TextOfCompany{
+	font-size: 25px;
+}
+.button{
+	font-size: 15px;
+}
+
+.left-main-block img{
+	width:160px;
+}
+
+.job{
+	font-size: 50px;
+}
+.driver{
+	font-size: 25px;
+}
+
+.container-info{
+	font-size: 20px;
+}
+.registration{
+	font-size: 20px;
+	width: 240px;
+	height: 45px;
+}
+.modal-content{
+	width: 60%;
+}
+}
+
+
+
+@media  screen and (max-width: 800px) 
+{
+.header-container{
+	font-size: 15px;
+}
+
+.img-logo{
+	width: 130px;
+}
+
+
+}
+
+@media  screen and (max-width: 700px) 
+{
+	.left-main-block img{
+	width:150px;
+}
+
+.job{
+	font-size: 40px;
+}
+.driver{
+	font-size: 20px;
+}
+
+.container-info{
+	font-size: 17px;
+}
+.registration{
+	font-size: 20px;
+	width: 230px;
+	height: 45px;
+}
+.taxi{
+		height: 26px;
+		font-size: 20px;
+}
+
+.zagolovok-about{
+	font-size: 27px;
+}
+
+	.form-child{
+		width: 70%;
+	}
+
+
+
+}
+
+
+
+@media  screen and (max-width: 600px) 
+{
+	.zagolovok-how{
+		font-size: 25px;
+	}
+
+	.flex-item{
+		font-size: 15px;
+	}
+	.img-how {
+		width: 50px;
+	}
+
+	.TextOfCompany{
+		font-size: 23px;
+	}
+		.footer{
+			font-size: 10px;
+		}
+		.messenger{
+			width: 25px;
+		}
+}
+
+
+@media  screen and (max-width: 500px) 
+{
+	.container-main{
+		background-position: center;
+	}
+.header-container{
+	font-size: 10px;
+}
+.img-logo{
+	width: 100px;
+}
+
+.left-main-block img{
+	width:120px;
+}
+
+.job{
+	font-size: 35px;
+}
+.driver{
+	font-size: 18px;
+}
+
+.container-info{
+	font-size: 15px;
+}
+.registration{
+	font-size: 15px;
+	width: 200px;
+	height: 35px;
+}
+.taxi{
+		height: 22px;
+		font-size: 18px;
+}
+
+.left-main-block{
+width: 130px
+}
+
+.zagolovok-how{
+	font-size: 19px;
+}
+.img-how{
+	width: 45px;
+}
+.flex-item{
+	font-size: 13px;
+	padding-bottom: 0%;
+	height: 180px;
+}
+
+.registration-how{
+	font-size:20px;
+	height: 40px;
+	width: 220px;
+}
+
+}
+
+
+
+@media  screen and (max-width: 400px) 
+{
+.left-main-block img{
+	width: 100px;
+}
+.job{
+	font-size: 25px;
+}
+.driver{
+	font-size: 15px;
+}
+.taxi{
+	height: 20px;
+	font-size: 15px;
+}
+.container-info{
+	font-size: 12px;
+}
+.registration{
+	width: 160px;
+	margin-top: 20px;
+}
+.left-main-block{
+	width: 110px;
+}
+.zagolovok-about{
+	font-size: 25px;
+}
+.TextOfCompany{
+	font-size: 15px;
+}
+.zagolovok-how{
+	font-size: 15px;
+}
+.flex-item{
+	height: 150px;
+	font-size: 8px;
+}
+.img-how{
+	width: 35px;
+}
+.registration-how{
+	font-size: 15px;
+	height: 35px;
+	width: 200px;
+}
+.img-logo{
+	width: 90px;
+}
+.header-container{
+	font-size: 8px;
+}
+.form-child{
+	width: 80%;
+}
+.application{
+	font-size: 15px;
+}
+.leaveArequest{
+	font-size: 10px;
+}
+.FieldForEntering{
+	font-size: 10px;
+}
+.button{
+	font-size: 12px;
+	width: 60%;
+}
+.footer{
+	font-size: 8px;
+}
+.messenger{
+	width: 20px;
+}
+}
